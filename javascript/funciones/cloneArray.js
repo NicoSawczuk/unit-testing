@@ -1,4 +1,4 @@
-export function cloneArray(array) {
+function cloneArray(array) {
     return [...array]
 }
 
