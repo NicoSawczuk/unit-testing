@@ -1,9 +1,11 @@
 const subtract = require('../funciones/subtract')
 
-const a = 3
-const b = 1
-const res = 2
+describe("Resta de dos numeros", () => {
+    it('La resta de 3 - 1 deberia dar 2', () => {
+        expect(subtract(3,1)).toBe(2)
+    })
 
-test('Suma de 3 - 1 tiene que dar 2 ', () => {
-    expect(subtract(a, b)).toBe(res)
+    it('La resta de -3 - 1 deberia dar -4', () => {
+        expect(subtract(-3,1)).toBe(-4)
+    })
 })
