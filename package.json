@@ -1,0 +1,23 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "Este repositorio fue creado con el fin de conocer el proceso de unit testing y aplicarlo en los diferentes lenguajes de programación existentes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoSawczuk/unit-testing.git"
+  },
+  "keywords": [],
+  "author": "Nicolas Sawczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoSawczuk/unit-testing/issues"
+  },
+  "homepage": "https://github.com/NicoSawczuk/unit-testing#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
